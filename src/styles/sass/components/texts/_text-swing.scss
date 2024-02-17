@@ -1,0 +1,18 @@
+.text-swing {
+  &__text {
+    width: 95%;
+    margin: 0 auto;
+    animation: float 3s linear infinite alternate;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  // ? 100%
+  100% {
+    transform: rotate(-5deg);
+  }
+}

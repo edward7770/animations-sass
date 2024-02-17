@@ -1,0 +1,29 @@
+.text-lighting {
+  color: var(--color-grey-2);
+  text-transform: uppercase !important;
+  font-weight: 500;
+
+  &__letter {
+    @for $i from 1 through 10 {
+      &:nth-child(#{$i}) {
+        animation: lighting 1.4s linear infinite;
+        animation-delay: ($i - 1) * 0.1s;
+      }
+    }
+  }
+}
+
+@keyframes lighting {
+  0% {
+    color: var(--color-grey-2);
+    text-shadow: none;
+  }
+  90% {
+    color: var(--color-grey-2);
+    text-shadow: none;
+  }
+  100% {
+    color: var(--color-yellow);
+    text-shadow: 0 0 7px var(--color-yellow), 0 0 50px var(--color-orange);
+  }
+}

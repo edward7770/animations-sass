@@ -1,0 +1,33 @@
+.card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 24rem;
+  width: 100%;
+  background-color: var(--color-light);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--dark {
+    background-color: var(--color-grey-3);
+    // background-color: #312f2f;
+    color: var(--color-light);
+  }
+  &--red {
+    background-color: var(--color-red);
+    color: var(--color-light);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta Tags -->
+    <meta
+      name="description"
+      content="Experience the magic of beautifully crafted animated components, from loaders to text animations and mesmerizing backgrounds."
+    />
+    <meta name="author" content="Vatsal Singh" />
+    <meta
+      name="keywords"
+      content="Text Animations, Cool Animations, Loaders, Image Animations, Text Effects, Animated Cards, Interactive Web App, Hover Effects, Click Effects, Web Development, Vatsal Singh, vatsalsinghkv, open source"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://beautiful-animations-kv.vercel.app/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Beautiful Animations | Using CSS" />
+    <meta
+      property="og:description"
+      content="Experience the magic of beautifully crafted animated components, from loaders to text animations and mesmerizing backgrounds."
+    />
+    <meta
+      property="og:image"
+      content="https://user-images.githubusercontent.com/68834718/265277125-da2a6e07-7cf6-411c-b55f-94e372aa6dc8.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="beautiful-animations-kv.vercel.app"
+    />
+    <meta
+      property="twitter:url"
+      content="https://beautiful-animations-kv.vercel.app/"
+    />
+    <meta name="twitter:title" content="Beautiful Animations | Using CSS" />
+    <meta
+      name="twitter:description"
+      content="Experience the magic of beautifully crafted animated components, from loaders to text animations and mesmerizing backgrounds."
+    />
+    <meta
+      name="twitter:image"
+      content="https://user-images.githubusercontent.com/68834718/265277125-da2a6e07-7cf6-411c-b55f-94e372aa6dc8.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Raleway:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer type="module" src="src/main.ts"></script>
+    <title>Beautiful Animations | Using CSS</title>
+  </head>
+  <body class="wrapper">
+    <h1 class="title">Beautiful CSS Animations</h1>
+    <p class="sub-title">
+      Check out our card components for mesmerizing animations like loaders,
+      text animations and backgrounds.
+    </p>
+    <main class="container">
+      <div class="card bg-float">
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <div class="bg-float__square"></div>
+        <h2>boxes <br />Background</h2>
+      </div>
+
+      <div class="card card--dark bg-space">
+        <h2>
+          interstellar <br />
+          background
+        </h2>
+      </div>
+
+      <div class="card card--dark bg-rain">
+        <h2 class="">
+          rain <br />
+          background
+        </h2>
+      </div>
+
+      <div class="card card--dark bg-driving">
+        <!-- <h2 class="">
+          driving <br />
+          background
+        </h2> -->
+        <img src="/images/streets/car.png" alt="car" class="bg-driving__car" />
+        <img
+          src="/images/streets/motobike.png"
+          alt="bike"
+          class="bg-driving__bike"
+        />
+      </div>
+
+      <div class="card card--dark bg-carousel">
+        <h2 class="">
+          carousel <br />
+          background
+        </h2>
+      </div>
+
+      <div class="card card--dark">
+        <h1 class="text-wave" data-text="wave">wave</h1>
+      </div>
+
+      <div class="card card--dark">
+        <h1 class="text-lighting">
+          <span class="text-lighting__letter">l</span>
+          <span class="text-lighting__letter">i</span>
+          <span class="text-lighting__letter">g</span>
+          <span class="text-lighting__letter">h</span>
+          <span class="text-lighting__letter">t</span>
+          <span class="text-lighting__letter">e</span>
+          <span class="text-lighting__letter">n</span>
+          <span class="text-lighting__letter">i</span>
+          <span class="text-lighting__letter">n</span>
+          <span class="text-lighting__letter">g</span>
+        </h1>
+      </div>
+
+      <div class="card">
+        <h1 class="text-swipe" data-text="loading...">loading...</h1>
+      </div>
+
+      <div class="card">
+        <h1 class="text-loading">
+          <span class="text-loading__letter">l</span>
+          <span class="text-loading__letter">o</span>
+          <span class="text-loading__letter">a</span>
+          <span class="text-loading__letter">d</span>
+          <span class="text-loading__letter">i</span>
+          <span class="text-loading__letter">n</span>
+          <span class="text-loading__letter">g</span>
+        </h1>
+      </div>
+
+      <div class="card">
+        <div class="text-swing">
+          <h2 class="text-swing__text text-3d">coming soon!</h2>
+        </div>
+      </div>
+
+      <div class="card card--light">
+        <h2 class="text-3d text-3d--blue wiggle">Wiggle</h2>
+      </div>
+
+      <div class="card card--dark">
+        <h2 class="text-change">
+          I am <br />
+          <span class="text-change__title"></span>
+        </h2>
+      </div>
+
+      <div class="card card--red">
+        <div class="loader-chasing-boxes">
+          <span class="loader-chasing-boxes__box"></span>
+          <span class="loader-chasing-boxes__box"></span>
+          <span class="loader-chasing-boxes__box"></span>
+        </div>
+      </div>
+
+      <div class="card card--dark">
+        <div class="loader-dice">
+          <div class="loader-dice__box"></div>
+          <div class="loader-dice__box"></div>
+          <div class="loader-dice__box"></div>
+          <div class="loader-dice__box"></div>
+        </div>
+      </div>
+
+      <div class="card card--dark">
+        <div class="loader-rings">
+          <div class="loader-rings__outer"></div>
+          <div class="loader-rings__middle"></div>
+          <div class="loader-rings__inner"></div>
+          <div class="loader-rings__dot"></div>
+        </div>
+      </div>
+
+      <div class="card card--dark">
+        <div class="loader-music">
+          <span class="loader-music__bar"></span>
+          <span class="loader-music__bar"></span>
+          <span class="loader-music__bar"></span>
+          <span class="loader-music__bar"></span>
+          <span class="loader-music__bar"></span>
+          <span class="loader-music__bar"></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="loader-swing-ball">
+          <div class="loader-swing-ball__line">
+            <div class="hexagon loader-swing-ball__ball"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="loader-pendulum">
+          <span class="loader-pendulum__stick"></span>
+          <span class="loader-pendulum__stick"></span>
+          <span class="loader-pendulum__stick"></span>
+          <span class="loader-pendulum__stick"></span>
+          <span class="loader-pendulum__stick"></span>
+        </div>
+      </div>
+
+      <div class="card loader-fold__container">
+        <div class="loader-fold"></div>
+      </div>
+
+      <div class="card">
+        <div class="loader-berry">
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+          <span class="loader-berry__square"></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="loader-bouncing">
+          <div class="loader-bouncing__line">
+            <span class="circle loader-bouncing__ball"></span>
+            <span class="circle loader-bouncing__ball"></span>
+            <span class="circle loader-bouncing__ball"></span>
+            <span class="circle loader-bouncing__ball"></span>
+            <span class="circle loader-bouncing__ball"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="loader-line"></div>
+      </div>
+
+      <div class="card">
+        <div class="loader-spinner"></div>
+      </div>
+
+      <div class="card card--dark">
+        <div class="loader-heart-beat heart"></div>
+      </div>
+
+      <div class="card card--dark">
+        <div class="loader-pulse"></div>
+      </div>
+
+      <div class="card card--dark">
+        <button class="save-btn wiggle">Save</button>
+      </div>
+      <div class="card">
+        <div class="square wipe-animation wipe-background"></div>
+      </div>
+    </main>
+    <footer class="attribution">
+      <a
+        href="https://github.com/vatsalsinghkv/beautiful-animations"
+        target="_blank"
+      >
+        Design &amp; Built by Vatsal Singh
+      </a>
+    </footer>
+  </body>
+</html>
